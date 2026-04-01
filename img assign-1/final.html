@@ -1,0 +1,972 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIT Roorkee</title>
+    <style>
+        .footer,
+.footer * {
+    font-family: 'Segoe UI', sans-serif !important;
+}
+        * {
+    font-weight: 400 !important;
+}
+        .nav1{
+            margin-left: 9%;
+            font-family: 'Lato', sans-serif;
+        }
+        .nav11{
+            margin: 10px;
+            font-family: 'Lato', sans-serif;
+        }
+        .nav12{
+            margin-left: 20px;
+        }
+        a{
+            margin:0px;
+            color:white;
+            text-decoration: none;  
+            line-height:1.2;
+            font-weight:bold;
+            font-size:1.2rem;
+            font-family:'Times New Roman', Times, serif;
+        }
+        a:hover{
+            color:lightblue;
+            text-decoration:underline;
+        }
+        .main-nav {
+    background-color: #3C3C3C;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 9%;
+}
+
+.nav-left {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-right {
+    display: flex;
+    gap: 20px;
+
+    margin-left: auto;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+        hr{
+            margin:0px;
+            height:2px;
+            background-color: #F8B300
+        }
+        .heading{
+            
+            text-align:center;
+            background-color:rgb(29, 29, 29);
+            Padding: 10px 0; 
+            text-align: center
+        }
+        .name{
+            font-family:Dutch801W03-Headline, 'Times New Roman', Times, serif;
+            color:white;
+        }
+        .clip{
+            border-radius:50%;
+            width:50px;
+
+        }
+        .name{
+    color: white;
+    margin: 2px 0;
+}
+.abcd{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+}
+.defg{
+    position: absolute;
+    top: 45%;         
+    left: 25%;             
+    transform: translate(-50%, -50%);  
+
+    width: 400px;         
+    height: auto;
+
+    z-index: 2;
+}
+.defgh{
+    position: absolute;
+    top: 45%;
+    right: 10px; 
+    transform: translateY(-50%);
+}
+.stack{
+    position: relative;
+}
+p{
+    font-weight:bold;
+            font-size:1.2rem;
+            font-family:'Times New Roman', Times, serif;
+}
+.top-header{
+    display: flex;
+    align-items: center;     
+    justify-content: center; 
+    gap: 15px;              
+}
+
+.text{
+    text-align: left;       
+}
+
+.clip{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;     
+    object-fit: cover;
+}
+
+
+
+.lols{
+    display: flex;
+    justify-content: center; 
+    height: 200px;
+    margin: auto;
+    margin-top: -80px; 
+    position: relative;
+    z-index: 3;
+}
+
+.onetwo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.onetwo1{
+    display: flex;
+    justify-content: space-between;
+}
+.onetwo1-{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+}
+
+.text1{
+    font-family: 'Lato', sans-serif;
+    margin-left: 15.5%;
+    font-size:1.5em;
+    color:#232323
+}
+.text2{
+    font-family: 'Lato', sans-serif;
+    margin-right: 15.5%;
+    font-size:0.9em;
+    color:#232323;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 120px;
+    gap: 8px;
+}
+    
+.div1 {
+    grid-row: span 2 / span 2;
+}
+
+.div2 {
+    grid-row: span 3 / span 3;
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+.div3 {
+    grid-row: span 3 / span 3;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.div4 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+
+.div5 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+
+.div6 {
+    grid-row: span 2 / span 2;
+    grid-column-start: 4;
+    grid-row-start: 4;
+}
+
+.div7 {
+    grid-row: span 4 / span 4;
+    grid-column-start: 5;
+    grid-row-start: 1;
+}
+
+.div8 {
+    grid-column-start: 5;
+    grid-row-start: 5;
+}
+.parent img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.parent div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.parent img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.parent{
+    width:69%;
+    margin: auto;
+}
+.image{
+    margin-left:15%;
+    margin-right:16.5%;
+    width:68.5%;
+}
+.image6{
+    display:flex;
+    justify-content: center;
+    width:81%;
+    margin:auto;
+
+}
+.anotherimage{
+    display:flex;
+    justify-content: center;;
+    width: 90%;        
+    margin:auto;
+    background-color: #99BBD1;
+    
+}
+.aimage{
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+
+    width: 69%;        
+    margin: auto;
+    background-color: #232323;
+    height: 450px;
+    border-radius:16px;
+
+    padding: 15px 40px 20px 20px;
+}
+.kyanaamdu{
+    width:69%;
+    margin:auto;
+    height:450px;
+    display:flex;
+    gap:20px;
+
+}
+.column1, .column2{
+    flex: 1;                    
+    padding: 20px;
+}
+.anotherimages{
+    width: 100%;        
+    margin:auto;
+    background-color: #99BBD1;
+    height: 500px;
+    margin-left:0px;
+    margin-right:0px;
+}
+.inside{
+    width:60%;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    height:80%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#F9F9F9;
+}
+img{
+    margin:0px;
+    padding:0px;
+}
+.image-final{
+    width:100%;
+
+}
+.left-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.right-img{
+    width: 60%;          
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-top:70px;
+    margin-right:60px;
+}
+.extra{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0 0 30px 0;
+    font-family:'Lato', sans-serif;
+    
+}
+
+.extras{
+    color: white;
+    font-size: 2rem;
+    margin: 0 0 20px 0;
+    font-family:'Lato', sans-serif;
+    
+}
+.yellow{
+    background-color:#F9B202;
+    border-radius:5px;
+    padding: 3px 6px;
+}
+.box-1{
+    background-color:#99BBD1;
+    height:450px;
+    padding:2px;
+    
+}
+.box-2{
+    background-color:white;
+    height:300px;
+}
+.inside-date{
+    line-height:0px;
+}
+.event {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 40px;
+}
+
+.inside-date {
+    margin: 0;
+    line-height: 1.1;
+    font-weight: bold;
+}
+
+.event-text p {
+    margin: 0 0 5px 0;
+}
+.footer {
+    background-color: black;
+    color: white;
+    padding: 0 0 0 0;   
+}
+
+.footer-container {
+    width: 69%;            
+    margin: auto;         
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr; 
+    gap: 40px;
+}
+
+.footer-col h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.footer-col p {
+    font-size: 0.95rem;
+    margin: 6px 0;
+    font-weight: normal;
+}
+
+.footer-logo {
+    height: 75px;
+    margin-top: 0;   
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.footer-container {
+    align-items: flex-start;  
+}
+.vachan{
+    display:flex;
+    flex-direction:row;
+    gap: 10px;
+}
+.vachankebache{
+    width:15px;
+    height:15px;
+}
+.vachankebaches{
+    width:10px;
+    height:10px;
+}
+.inline{
+    display:flex;
+    flex-direction:row;
+    gap:10px
+}
+p {
+    margin: 0;
+}
+.c1{
+    font-family:'Lato', sans-serif;
+    color:white;
+    font-size:0.8em;
+    line-height:100px;
+}
+.c2{
+    font-family:'Lato', sans-serif;
+    color:white;
+    font-size:1.2em;
+    line-height:100px;
+
+}
+.c3{
+    
+    font-family:'Lato', sans-serif;
+    color:white;
+    font-size:1.5em;
+    line-height:100px;
+
+
+}
+.c1, .c2, .c3, .c4, .c5, .c6, .c7 {
+    line-height: 30px;
+}
+.vachankebached{
+    width:45px;
+    height:25px;
+}
+.c6{
+    font-family: 'Lato', sans-serif;
+    color:white;
+}
+.word-1{
+    font-family: 'Lato', sans-serif;
+    color:#232323;
+    font-size:1.5em;
+
+}
+.word-2{
+    font-family: 'Lato', sans-serif;
+    color:#232323;
+    font-size:0.9em;
+
+}
+.year{
+    display:flex;
+    justify-content:space-between;
+    width:69%;
+    margin:auto;
+    margin-bottom:0px;
+}
+.years{
+    margin-bottom:0px;
+    font-family:'roboto', sans-serif;
+    color:#585656;
+}
+.yeardot{
+    display:flex;
+    justify-content:space-between;
+    width:69%;
+    margin: auto;
+    margin-top:0px;
+    line-height: 0px;
+}
+.yearsdot{
+    font-size:6em;
+    margin-top:0px;
+    font-family:'roboto', sans-serif;
+    color:#585656;
+}
+.special{
+    color:#F9B202;
+}
+.slider {
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide.active {
+    display: block;
+}
+
+.slider button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 5px 10px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+        
+    </style>
+</head>
+<body>
+    <nav class="main-nav">
+    
+    <div class="nav-left">
+        <a href="">Saharanpur Campus</a>
+        <a href="">Noida Campus</a>
+        <a href="">Webmail</a>
+        <a href="">iConnect</a>
+        <a href="">Directory</a>
+        <a href="">Contact Us</a>
+    </div>
+
+    <div class="nav-right">
+        <p class="c1">A-</p>
+        <p class="c2">A</p>
+        <p class="c3">A+</p>
+        <p class="c4"><img src="Group 147.png" alt="search" class="vachankebached"></p>
+        <p class="c6">हिन्दी|ENG</p>
+        <p class="c7"><img src="Vector (3).png" alt="search" class="vachankebache"></p>
+        
+    </div>
+
+</nav>
+    
+       
+    <hr>
+    <div class="heading">
+        <div class="top-header">
+         <img src="logo.jpg" class="clip">
+         <div class="text">
+         <p class="name">भारतीय प्रौद्योगिकी संस्थान रुड़की</p>
+         <p class="name">Indian Institute of Technology Roorkee</p>
+          </div>
+          </div>
+          <br>
+
+         <hr style="margin: 0 9%;"> 
+         
+         <div class="nav-2">
+
+        
+        <a href=""  class="nav11">INSTITUTE</a>
+        <a href=""  class="nav11">ADMISSION</a>
+        <a href=""  class="nav11">ACADEMICS</a>
+        <a href=""  class="nav11">DEPARTMENTS</a>
+        <a href=""  class="nav11">RESEARCH</a>
+        <a href="" class="nav11">CAMPUS LIFE</a>
+        <a href="" class="nav11">CAREERS</a>
+        <a href="" class="nav11">PLACEMENTS</a>
+        <a href="" class="nav11">RESOURCES</a>
+       
+
+         </div>  
+        
+         
+         
+    </div>
+    <div class="stack">
+     <video src="IIT Roorkee and Around from the Sky. 00_00_17-00_02_00 (1).mp4" class="abcd" autoplay muted loop playsinline></video>
+     <img src="textstack.png" class="defg">
+     <img src="Frame 4342.png" class="defgh">
+     </div>
+     <div class="section">
+     <div class="lols">
+        <img src="image1.png" class="lol">
+        <img src="image2.png" class="lol">
+        <img src="image3.png" class="lol">
+        <img src="image4.png" class="lol">
+     </div>
+     <br>
+     <br>
+     <div class="onetwo">
+     <p class="text1">RECENT RESEARCH</p>
+     <p class="text2">VIEW ALL</p>
+     </div>
+     </div>
+     <br>
+     <br>
+     
+<div class="parent">
+    <div class="div1"><img src="export.png"></div>
+    <div class="div2"><img src="h1.png"></div>
+    <div class="div3"><img src="ca7170515d5993544f693f8b991faa69cf2c5abc.jpg"></div>
+    <div class="div4"><img src="Rectangle 2649.png"></div>
+    <div class="div5"><img src="h3.png"></div>
+    <div class="div6"><img src="Rectangle 2648.png"></div>
+    <div class="div7"><img src="ca7170515d5993544f693f8b991faa69cf2c5abc.jpg"></div>
+    <div class="div8"><img src="h2.png"></div>
+</div>
+<br>
+     <br>
+
+    <div class="onetwo">
+     <p class="text1">RECENT RESEARCH</p>
+     <p class="text2">VIEW ALL</p>
+     </div>
+     <br>
+     <br>
+
+    <div class="slider image">
+    <button class="prev">&#10094;</button>
+
+    <img src="imagemod.jpg" class="slide active">
+    <img src="tempimg.jpg" class="slide" alt="secondimagehere">
+    <img src="tempimga.webp" class="slide" alt="thirdimagehere">
+
+    <button class="next">&#10095;</button>
+</div>
+    <img src="img124.jpg"class="anotherimage">
+    <div class="anotherimages">
+        <br>
+     <br>
+         <div class="onetwo">
+     <p class="text1">RECENT ACHIEVEMENTS</p>
+     <p class="text2">VIEW ALL</p>
+     </div>
+        <div class="slider inside">
+    <button class="prev">&#10094;</button>
+
+    <img src="Group 4332.png" class="slide active">
+    <img src="tempimg.jpg" class="slide">
+    <img src="sample.jpg" class="slide">
+
+    <button class="next">&#10095;</button>
+</div>
+    </div>
+    
+    <!--<img src="Group 4343.png"class="image6">
+    <img src="Frame 4.png"class="image6">
+    <img src="Footer.png" class="image-final">-->
+    <br>
+    <br>
+    <div class="aimage">
+    
+    <div class="left-text">
+        <div class="extra">Events Gallery</div>
+
+        <div class="extras">Thomso</div>
+        <div class="extras">IITRMS</div>
+        <div class="extras yellow">Convocation</div>
+        <div class="extras">TEDxIITRoorkee</div>
+        <div class="extras">EUNOIA</div>
+        <div class="extras">INTER-IIT</div>
+    </div>
+
+    <img src="CAR.jpg" class="right-img">
+
+</div>
+<br>
+<br>
+<div class="onetwo">
+     <p class="text1">MILESTONES</p>
+     <p class="text2">VIEW ALL</p>
+
+     </div>
+     <br>
+     <br>
+     <div class="year">
+        <p class="years">2018</p>
+        <p class="years">2019</p>
+        <p class="years">2020</p>
+        <p class="years">2021</p>
+        <p class="years">2022</p>
+        <p class="years special">2023</p>
+        <p class="years">2024</p>
+     </div>
+      <div class="yeardot">
+        <p class="yearsdot">.</p>
+        <p class="yearsdot">.</p>
+        <p class="yearsdot">.</p>
+        <p class="yearsdot">.</p>
+        <p class="yearsdot">.</p>
+        <p class="yearsdot special">.</p>
+        <p class="yearsdot">.</p>
+     </div>
+     <br>
+     <br>
+     <br>
+     <br>
+     <img src="modifykrayahai.png" class="image"><!--archi wali pic-->
+     <br>
+     <br>
+     <div class="kyanaamdu">
+        <div class="column1">
+<div class="onetwo1-">
+     <p class="word-1">NOTICEBOARD</p>
+     <p class="word-2">VIEW ALL</p>
+
+     </div>
+     <div class="box-1">
+        <p style="font-family:Segoe UI,sans-serif; font-weight:400;"> Administration &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apr 04,24</p>
+        <br>
+        <p style="font-family:Segoe UI,sans-serif; font-weight:400;">Assistant Registrar General Administration
+Revised rates of minimum wages for outsourced services -reg.</p>
+
+        <hr>
+        
+        <p style="font-family:Segoe UI,sans-serif; font-weight:400;"> Administration &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apr 04,24</p>
+        <br>
+        <p style="font-family:Segoe UI,sans-serif; font-weight:400;">Assistant Registrar General Administration
+OM:Extension of the Contract of empanelled advertising agencies</p>
+
+        <hr>
+        
+        <p style="font-family:Segoe UI,sans-serif; font-weight:400;"> Administration &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apr 04,24</p>
+        <br>
+        <p style="font-family:Segoe UI,sans-serif; font-weight:400;">Assistant Registrar General Administration
+OM: Extension of Contract Agreement for work hire services</p>
+        
+        <hr>
+        <p style="font-family:Segoe UI,sans-serif; font-weight:400;"> Administration &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apr 04,24</p>
+        <br>
+        <p style="font-family:Segoe UI,sans-serif; font-weight:400;">Assistant Registrar General Administration
+House Allotment Committee - I</p>
+         <p> </p>
+
+
+     </div>
+            
+        </div>
+        <div class="column2">
+            <div class="onetwo1-">
+     <p class="word-1">UPCOMING EVENTS</p>
+     <p class="word-2">VIEW ALL</p>
+
+     </div>
+     <div class="box-2">
+        <br>
+        <div class="event">
+    <div class="date">
+        <p class="inside-date" style="font-family:'Lato',sans-serif; font-weight:400;">19</p>
+        <p class="inside-date" style="font-family:'Lato',sans-serif; font-weight:400;">Oct</p>
+    </div>
+
+    <div class="event-text">
+        <p style="font-family:Segoe UI,sans-serif; font-weight:400;">IDEAS-2024</p>
+        <p style="font-family:Segoe UI,sans-serif; font-weight:400;">International Symposium Innovative Design for Excellence, Affordability and Sustainability</p>
+    </div>
+</div>
+<br>
+<br>
+<hr>
+<div class="event">
+    <div class="date">
+        <p class="inside-date" style="font-family:'Lato',sans-serif; font-weight:400;">23</p>
+        <p class="inside-date" style="font-family:'Lato',sans-serif; font-weight:400;"">Sept</p>
+    </div>
+
+    <div class="event-text">
+        <p style="font-family:Segoe UI,sans-serif; font-weight:400;">Inaugral Lecture</p>
+        <p style="font-family:Segoe UI,sans-serif; font-weight:400;">Prof. Shankar Lal Memorial Lecture Series</p>
+    </div>
+</div>
+<br>
+<br>
+<hr>
+     </div>
+
+        </div><!--column2 ends here-->
+
+    </div>
+<!--5 columns here-->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="footer">
+    <div class="footer-container">
+
+        
+        <div class="footer-col">
+            <img src="Footer (1) (1).png" class="footer-logo">
+            <br>
+            <br>
+            <p>How to reach IIT Roorkee <img src="location.png" class="vachankebache"></p>
+            <p>+91-1332-285311 <img src="phone.png" class="vachankebache"> </p>
+            <p>registrar@iitr.ac.in <img src="Vector.png" class="vachankebache"> </p>
+            <div class="vachan">
+                <img src="instagram.svg.png" class="vachankebache">
+                <img src="facebook.svg.png" class="vachankebache">
+                <img src="x_logo.svg (1).png" class="vachankebache">
+                <img src="linkedin-svgrepo-com 1.png" class="vachankebache">
+                <img src="youtube.svg.png" class="vachankebache">
+
+            
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+             <br>
+            <br>
+            <br>
+            <br>
+            <div class="inline">
+            <p style="font-size:0.9em;">Sitemap</p>
+            <p style="font-size:0.9em;">Privacy policy</p>
+            <p style="font-size:0.9em;">Accessibility</p>
+            </div>
+        </div>
+
+
+        
+        <div class="footer-col">
+            <h3>EXPLORE</h3>
+            <p>Administration <img src="Vector (1).png" class="vachankebaches"></p>
+            <p>Tenders and Quotations</p>
+            <p>Awards and Honours</p>
+            <p>RTI <img src="Vector (1).png" class="vachankebaches"></p>
+            <p>Departments</p>
+            <p>Industry Consultation</p>
+            <p>International Students <img src="Vector (1).png" class="vachankebaches"></p>
+        </div>
+
+        
+        <div class="footer-col">
+            <h3>RANKINGS</h3>
+            <p>NIRF <img src="Vector (1).png" class="vachankebaches"></p>
+            <p>ARIIA</p>
+            <p>QS</p>
+        </div>
+
+        
+        <div class="footer-col">
+            <h3>QUICK ACCESS</h3>
+            <p>Donate <img src="Vector (1).png" class="vachankebaches"></p>
+            <p>Support @ IITR</p>
+            <p>Intranet Portal</p>
+            <p>Give Feedback <img src="Vector (1).png" class="vachankebaches"></p>
+            <p>Webmail</p>
+            <p>Internal Complaints Committee</p>
+            <p>Book Guest House</p>
+            <p>IIT Council <img src="Vector (1).png" class="vachankebaches"></p>
+            <p>MoE</p>
+        </div>
+
+       
+        <div class="footer-col">
+            <h3>QUICK LINKS</h3>
+            <p>Safety <img src="Vector (1).png" class="vachankebaches"></p>
+            <p>Security</p>
+            <p>Hindi Cell</p>
+        </div>
+        
+    </div>
+<p style="text-align: right; margin-right: 15.5%;font-size:0.9em;">
+    Made with Love by: Information Management Group, IITR
+</p>
+</div>
+<p style="text-align: center; background-color: #121212; margin: 0; padding: 10px 0;font-size:0.9em; color:white;">
+    Copyright 2024, Institute Computer Centre, IIT Roorkee
+</p>
+
+
+<script>
+document.querySelectorAll(".slider").forEach(slider => {
+    let slides = slider.querySelectorAll(".slide");
+    let prev = slider.querySelector(".prev");
+    let next = slider.querySelector(".next");
+
+    let index = 0;
+
+    function showSlide(i) {
+        slides.forEach(s => s.classList.remove("active"));
+        slides[i].classList.add("active");
+    }
+
+    function nextSlide() {
+        index = (index + 1) % slides.length;
+        showSlide(index);
+    }
+
+    function prevSlide() {
+        index = (index - 1 + slides.length) % slides.length;
+        showSlide(index);
+    }
+
+    next.addEventListener("click", () => {
+        nextSlide();
+        resetAuto();
+    });
+
+    prev.addEventListener("click", () => {
+        prevSlide();
+        resetAuto();
+    });
+
+    let auto = setInterval(nextSlide, 3000);
+
+    function resetAuto() {
+        clearInterval(auto);
+        auto = setInterval(nextSlide, 3000);
+    }
+});
+</script>
+    
+</body>
+</html>
